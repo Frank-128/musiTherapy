@@ -1,0 +1,48 @@
+.base{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image : url("/musicTherapy/b3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.category{
+    background-image: url('categories/war.jpeg');
+    background-size: cover;
+   
+}
+.hope{
+    background-image: url('categories/hope.jpeg');
+    background-size: cover;
+}
+.control{
+    background-image: url('categories/control.jpeg');
+    background-size: cover;
+}
+.love{
+    background-image: url('categories/love.jpeg');
+    background-size: cover;
+}
+.education{
+    background-image: url('categories/education.jpeg');
+    background-size: cover;
+}
+.motivation{
+    background-image: url('categories/motivation.jpeg');
+    background-size: cover;
+}
+@keyframes transformX {
+    0%{
+        width:20%;
+    }
+    100%{
+       width:80%;
+    }
+}
+.div3{
+    animation-name:transformX;
+    animation-duration:3s;
+    animation-timing-function:ease-in-out;
+}
